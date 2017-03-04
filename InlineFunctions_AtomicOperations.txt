@@ -1,0 +1,15 @@
+Luciano M. Almeida
+
+Atomic operations
+Uma operação atômica significa que ela deve ser indivisível e irredutível. Assim que uma operação atômica ser inicializada, ela será concluída por inteira sem interrupção durante a sua execução.
+Geralmente esse recurso é utilizado em operações críticas cuja uma chamada de interrupção (por exemplo) durante a execução da tarefa poderia resultar em algum erro.
+
+Referencia: http://www.webopedia.com/TERM/A/atomic_operation.html
+
+
+Inline functions
+O especificador inline é uma dica ao compilador para que ele tente inserir o código presente dentro da função (no ponto de seu local de chamada) ao invés de usar o mecanismo de chamada de função usual.
+É um recurso da linguagem para evitar a perda de performance evitando o desperdício de processamento ao chamar uma função e retornar dela.
+
+Referencia: http://www.greenend.org.uk/rjk/tech/inline.html
+
